@@ -1,0 +1,12 @@
+{application, transcode,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { transcode_app, []}},
+  {env, []}
+ ]}.
